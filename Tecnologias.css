@@ -1,0 +1,676 @@
+* {
+  box-sizing: border-box;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 70vh;
+  width: 100%;
+  background-image: url("fotos/tecnologias.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.fondo {
+  height: 70vh;
+  width: 100%;
+  background-color: #00000070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo>h1 {
+  color: white;
+  font-size: 2.7em;
+}
+
+nav p {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: rgb(253, 244, 119);
+  font-size: 22px;
+}
+
+nav {
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  background-image: url("fotos/fondomain.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+nav p {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+nav a:hover {
+  color: rgb(253, 244, 119);
+  font-size: 20px;
+}
+
+.conte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000070;
+  height: 100px;
+}
+
+
+footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #d3d3d3;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  padding: 10px;
+}
+
+.con {
+  padding: 15px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos a {
+  text-decoration: none;
+}
+
+.icon-facebook2 {
+  color: #000000;
+  font-size: 30px;
+}
+
+.icon-instagram {
+  color: #000000;
+  font-size: 30px;
+}
+
+.icon-facebook2:hover {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.icon-instagram:hover {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+hr {
+  width: 100%;
+  color: black;
+  height: 4px;
+  background-color: black;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item1 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/html.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.item2 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/css.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.item3 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/js.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.item4 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/c++.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.item5 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/cs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.item6 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/git.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.item7 {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  background-image: url("fotos/github.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.fondo-tecno {
+  width: 350px;
+  height: 350px;
+  background-color: #00000088;
+  color: #ffffff;
+  text-shadow: 2px 0px 0px white;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.fondo-tecno:hover{
+  transform: scale(1.05);
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7:hover {
+transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fondo-tecno {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .fondo-tecno {
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background: #d3d3d3;
+    font-size: 0.9em;
+  }
+
+  .icon-facebook2 {
+    color: #000000;
+    font-size: 25px;
+  }
+
+  .icon-instagram {
+    color: #000000;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 410px) {
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .fondo-tecno {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background: #d3d3d3;
+    font-size: 0.8em;
+  }
+
+  .icon-facebook2 {
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .icon-instagram {
+    color: #000000;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-device-width:1024px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-size: 2.5em;
+    align-items: center;
+    padding-bottom: 20px;
+    
+  }
+  header{
+    height: 55vh;
+  }
+  .fondo h1{
+    font-size:5em;
+  }
+
+  nav>.conte>p>a {
+    font-size: 2.2em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .fondo-tecno {
+    width: 350px;
+    height: 350px;
+    font-size: 50px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 70px
+  }
+  .conte{
+    height:170px;
+  }
+
+}
+@media only screen and (max-device-width:768px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    font-size: 2.2em;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    
+  }
+  header{
+    height: 55vh;
+  }
+
+  nav>.conte>p>a {
+    font-size: 1.5em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fondo-tecno {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 55px
+  }
+  .conte{
+    height:170px;
+  }
+
+}
+@media only screen and (max-device-width:360px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.1em;
+    text-align: center;
+    padding-bottom: 20px;
+    
+  }
+
+  nav>.conte>p>a {
+    font-size: 0.9em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .fondo-tecno {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 30px
+  }
+
+}
+@media only screen and (max-device-width:411px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    text-align: center;
+    
+  }
+
+  nav>.conte>p>a {
+    font-size: 1em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 110px;
+    height: 110px;
+  }
+
+  .fondo-tecno {
+    width: 110px;
+    height: 110px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 30px
+  }
+
+}
+@media only screen and (max-device-width:320px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  nav>.conte>p>a {
+    font-size: 0.7em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .fondo-tecno {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 25px
+  }
+
+}
+@media only screen and (max-device-width:540px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    font-size: 1.4em;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    
+  }
+  header{
+    height: 65vh;
+  }
+
+  nav>.conte>p>a {
+    font-size: 1.2em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 200px;
+    height: 200px;
+  }
+.fondo h1{
+  font-size: 3em;
+}
+  .fondo-tecno {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 35px
+  }
+  .conte{
+    height:110px;
+  }
+
+}
+@media only screen and (max-device-width:414px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    text-align: center;
+    
+  }
+
+  nav>.conte>p>a {
+    font-size: 1em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .fondo-tecno {
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 30px
+  }
+
+}
+@media only screen and (max-device-width:280px) {
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    
+  }
+  header{
+    height: 55vh;
+  }
+
+  nav>.conte>p>a {
+    font-size: 0.9em;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    width: 100px;
+    height: 100px;
+  }
+.fondo h1{
+  font-size: 2em;
+}
+  .fondo-tecno {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .icon-facebook2,.icon-instagram{
+    font-size: 25px
+  }
+  .conte{
+    height:100px;
+  }
+
+}

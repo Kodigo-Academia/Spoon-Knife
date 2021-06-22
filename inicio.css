@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bree+Serif&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.fotopersonal {
+  height: 225px;
+  width: 225px;
+  border-radius: 150%;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+header {
+  height: 80vh;
+  width: 100%;
+  background-image: url("fotos/imh.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondo {
+  height: 80vh;
+  width: 100%;
+  background-color: #00000070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.texto > h1 {
+  color: white;
+  font-size: 54px;
+  font-family: "Train One", cursive;
+}
+.texto > h3 {
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 2.3em;
+}
+
+.icon-facebook2 {
+  color: #000000;
+  font-size: 30px;
+}
+.icon-instagram {
+  color: #000000;
+  font-size: 30px;
+}
+.icon-facebook2:hover {
+  color: #ffffff;
+  font-size: 30px;
+}
+.icon-instagram:hover {
+  color: #ffffff;
+  font-size: 30px;
+}
+.conte {
+  display: flex;
+  padding: 17px 0;
+  justify-content: center;
+  background-color: #00000070;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: flex;
+  align-content: center;
+  position: sticky;
+  justify-content: center;
+}
+.info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+hr {
+  color: black;
+  height: 4px;
+  width: 70%;
+  background-color: black;
+}
+.info > h4 {
+  font-size: 1.4em;
+}
+
+nav {
+  display: flex;
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  padding: 0;
+  margin: 0;
+}
+nav p {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+nav a:hover {
+  color: rgb(253, 244, 119);
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #d3d3d3;
+  font-size: 1.1em;
+  height: 20vh;
+  align-items: center;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+}
+span {
+  padding: 10px;
+}
+.con > p {
+  margin: 0;
+}
+.con {
+  padding: 15px;
+}
+.iconos a {
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width : 1024px){
+  .texto > h1 {
+    font-size: 85px;
+  }
+  .texto > h3 {
+    font-size: 3.2em;
+  }
+  .fotopersonal {
+    height:400px;
+    width:400px;
+  }
+  .info>h4{
+    font-size:2.4em;
+  }
+  .info>p{
+    font-size: 3em;
+  }
+nav{
+  height:180px;
+}
+  nav > p {
+    font-size: 40px;
+  }
+  footer {
+    font-size: 2.2em;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .icon-facebook2 {
+    font-size: 60px;
+  }
+  .icon-instagram {
+    font-size: 60px;
+  }
+  .con{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  nav > p > a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen  and (max-device-width : 768px){
+  .texto > h1 {
+    font-size: 65px;
+  }
+  .texto > h3 {
+    font-size: 2.9em;
+  }
+  .fotopersonal {
+    height:400px;
+    width:400px;
+  }
+  .info>h4{
+    font-size:2.9em;
+  }
+  .info>p{
+    font-size: 2em;
+  }
+nav{
+  height:180px;
+}
+  nav > p {
+    font-size: 40px;
+  }
+  footer {
+    font-size: 2.2em;
+    flex-direction: column;
+    height: auto;
+  }
+  .icon-facebook2 {
+    font-size: 60px;
+  }
+  .icon-instagram {
+    font-size: 60px;
+  }
+  .con{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  nav > p > a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen  and (max-device-width : 720px){
+  .texto > h1 {
+    font-size: 65px;
+  }
+  .texto > h3 {
+    font-size: 2.9em;
+  }
+  .fotopersonal {
+    height:400px;
+    width:400px;
+  }
+  .info>h4{
+    font-size:2.9em;
+  }
+  .info>p{
+    font-size: 2em;
+  }
+nav{
+  height:180px;
+}
+  nav > p {
+    font-size: 40px;
+  }
+  footer {
+    font-size: 2.2em;
+    flex-direction: column;
+    height: auto;
+  }
+  .icon-facebook2 {
+    font-size: 60px;
+  }
+  .icon-instagram {
+    font-size: 60px;
+  }
+  .con{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  nav > p > a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width:615px){
+  .fotopersonal{
+    width:200px;
+    height:200px;
+  }
+}
+@media only screen and (max-device-width:540px){
+  .texto > h1 {
+    font-size: 45px;
+  }
+  .texto > h3 {
+    font-size: 2.1em;
+  }
+  .fotopersonal {
+    height:200px;
+    width: 200px;
+  }
+  .info>h4{
+    font-size:1.8em;
+  }
+  .info>p{
+    font-size: 1.1em;
+  }
+nav{
+  height:150px;
+}
+  nav > p {
+    font-size: 22px;
+  }
+  footer {
+    font-size: 1.1em;
+  }
+  .icon-facebook2 {
+    font-size: 30px;
+  }
+  .icon-instagram {
+    font-size: 30px;
+  }
+}
+@media (max-width: 430px) {
+  .texto > h1 {
+    font-size: 35px;
+  }
+  .texto > h3 {
+    font-size: 1.7em;
+  }
+  .fotopersonal {
+    height: 200px;
+    width: 200px;
+  }
+  nav > p {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 1em;
+    padding-bottom: 20px;
+  }
+  .icon-facebook2 {
+    font-size: 25px;
+  }
+  .icon-instagram {
+    font-size: 25px;
+  }
+  nav > p > a {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-device-width:414px){
+  .texto > h1 {
+    font-size: 45px;
+  }
+  .texto > h3 {
+    font-size: 2.1em;
+  }
+  .fotopersonal {
+    height:200px;
+    width: 200px;
+  }
+  .info>h4{
+    font-size:1.8em;
+  }
+  .info>p{
+    font-size: 1.1em;
+  }
+nav{
+  height:150px;
+}
+  nav > p {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 1.1em;
+  }
+  .icon-facebook2 {
+    font-size: 30px;
+  }
+  .icon-instagram {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-device-width:375px){
+  .texto > h1 {
+    font-size: 45px;
+  }
+  .texto > h3 {
+    font-size: 2.1em;
+  }
+  .fotopersonal {
+    height:200px;
+    width: 200px;
+  }
+  .info>h4{
+    font-size:1.8em;
+  }
+  .info>p{
+    font-size: 1.1em;
+  }
+nav{
+  height:150px;
+}
+  nav > p {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 1.1em;
+  }
+  .icon-facebook2 {
+    font-size: 30px;
+  }
+  .icon-instagram {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .icon-facebook2 {
+    font-size: 20px;
+  }
+  .icon-instagram {
+    font-size: 20px;
+  }
+  .info>h4{
+    font-size: 1.4em;
+  }
+  .info>p{
+    font-size: 1em;
+  }
+  footer {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  nav > p > a {
+    font-size: 1em;
+  }
+  .texto>h1{
+    font-size: 30px;
+  }
+  .icon-facebook2 {
+    font-size: 25px;
+  }
+  .icon-instagram {
+    font-size: 25px;
+  }
+  .con{
+    margin-bottom:8px;
+    padding:0;
+  }
+}
+@media only screen and (max-device-width: 320px) {
+  .icon-facebook2 {
+    font-size: 20px;
+  }
+  .icon-instagram {
+    font-size: 20px;
+  }
+  .info>h4{
+    font-size: 1.4em;
+  }
+  .info>p{
+    font-size: 1em;
+  }
+  footer {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  nav > p > a {
+    font-size: 1em;
+  }
+  .texto>h1{
+    font-size: 30px;
+  }
+  .icon-facebook2 {
+    font-size: 25px;
+  }
+  .icon-instagram {
+    font-size: 25px;
+  }
+  .con{
+    margin-bottom:8px;
+    padding:0;
+  }
+}
+@media only screen and (max-device-width: 280px) {
+  .icon-facebook2 {
+    font-size: 25px;
+  }
+  .icon-instagram {
+    font-size: 25px;
+  }
+  footer {
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    font-size: 0.9em;
+    padding:5px;
+  }
+  nav > p > a {
+    font-size: 0.8em;
+  }
+  .texto>h1{
+    font-size: 30px;
+  }
+  .info>h4{
+    font-size:1.5em;
+  }
+  .info>p{
+    font-size: 0.9em;
+  }
+}
+
+
+

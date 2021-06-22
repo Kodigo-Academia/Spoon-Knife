@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'ddd';
+  src:  url('ddd.eot?qv39y2');
+  src:  url('ddd.eot?qv39y2#iefix') format('embedded-opentype'),
+    url('ddd.ttf?qv39y2') format('truetype'),
+    url('ddd.woff?qv39y2') format('woff'),
+    url('ddd.svg?qv39y2#ddd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ddd' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-paste:before {
+  content: "\e92d";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
